@@ -1,6 +1,6 @@
-# TransLO: A Window-Based Masked Point Transformer Framework for Large-Scale LiDAR Odometry
-This is official implementation for our AAAI2023 paper "TransLO: A Window-Based Masked Point Transformer Framework for Large-Scale LiDAR Odometry" .
-<img src="pipeline.png">
+# TransLO: A Window-Based Masked Point Transformer Framework for Large-Scale LiDAR Odometry (AAAI2023)
+This is official implementation for our AAAI2023 paper "TransLO: A Window-Based Masked Point Transformer Framework for Large-Scale LiDAR Odometry".
+<img src="pipeline.png" alt="teaser" width="50%" />
 
 ## Installation
 Our model only depends on the following commonly used packages.
