@@ -54,6 +54,15 @@ python train.py
 ```
 Please reminder to specify the `GPU`, `data_root`,`log_dir`, `test_list`(sequences for testing) in the scripts.
 
+### Quantitative results:
+
+### Acknowledgments
+
+We thank the following open-source project for the help of the implementations:
+- [PointNet++](https://github.com/charlesq34/pointnet2) (Furthest Points Sampling and TF operators)
+- [KITTI_odometry_evaluation_tool](https://github.com/LeoQLi/KITTI_odometry_evaluation_tool) 
+- [PWCLONet](https://github.com/IRMVLab/PWCLONet)(Network design)
+
 ## Citation
 ```
 @inproceedings{liu2023translo,
