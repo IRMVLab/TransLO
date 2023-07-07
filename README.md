@@ -55,7 +55,7 @@ python train.py
 Please reminder to specify the `GPU`, `data_root`,`log_dir`, `test_list`(sequences for testing) in the scripts.
 
 ### Quantitative results:
-
+<img src="sota.png">
 ### Acknowledgments
 
 We thank the following open-source project for the help of the implementations:
