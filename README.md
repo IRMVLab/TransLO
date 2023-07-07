@@ -71,8 +71,8 @@ Please reminder to specify the `GPU`, `data_root`,`log_dir`, `test_list`(sequenc
 ```
 ### Acknowledgments
 We thank the following open-source project for the help of the implementations:
-- [PointNet++](https://github.com/charlesq34/pointnet2) (Furthest Points Sampling and TF operators)
+- [PointNet++](https://github.com/charlesq34/pointnet2) 
 - [KITTI_odometry_evaluation_tool](https://github.com/LeoQLi/KITTI_odometry_evaluation_tool) 
-- [PWCLONet] (https://github.com/IRMVLab/PWCLONet)(Network design)
+- [PWCLONet] (https://github.com/IRMVLab/PWCLONet)
 
 
