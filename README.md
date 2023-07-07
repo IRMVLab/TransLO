@@ -28,21 +28,33 @@ cd ../
 ## Datasets
 
 Datasets are available at KITTI Odometry benchmark website: [ https://drive.google.com/drive/folders/1Su0hCuGFo1AGrNb_VMNnlF7qeQwKjfhZ](https://www.cvlibs.net/datasets/kitti/eval_odometry.php)
+The data of the KITTI odometry dataset should be organized as follows:
+
+```
+data_root
+├── 00
+│   ├── velodyne
+│   ├── calib.txt
+├── 01
+├── ...
+```
 
 ## Training
+Train the network by running :
 ```bash
 python train.py 
 ```
+Please reminder to specify the `GPU`, `data_root`,`log_dir`, `train_list`(sequences for training), `val_list`(sequences for validation) in the scripts.
 You may specify the value of arguments. Please find the available arguments in the configs.py. 
 
 ## Testing
-
+Evaluate the network by running :
 ```bash
 python train.py
 ```
+Please reminder to specify the `GPU`, `data_root`,`log_dir`, `test_list`(sequences for testing) in the scripts.
 
 ## Citation
-
 ```
 @inproceedings{liu2023translo,
   title={TransLO: A Window-Based Masked Point Transformer Framework for Large-Scale LiDAR Odometry},
