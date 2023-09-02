@@ -53,7 +53,7 @@ class points_dataset(data.Dataset):
         self.Tr_list = Tr_tmp
         self.data_sum = data_sum
         self.lidar_path = self.lidar_root
-        self.image_path = self.image_root
+        
 
     def se3_transform(self, pose, xyz):
         """Apply rigid transformation to points
