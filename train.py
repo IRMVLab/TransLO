@@ -15,7 +15,7 @@ from tools.excel_tools import SaveExcel
 from tools.euler_tools import quat2mat
 from tools.logger_tools import log_print, creat_logger
 from kitti_pytorch import points_dataset
-from translonet_model import translo_model, get_loss
+from translo_model import translo_model, get_loss
 from utils1.collate_functions import collate_pair
 
 
