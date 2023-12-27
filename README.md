@@ -8,8 +8,8 @@ Our model only depends on the following commonly used packages.
 | Package      | Version                          |
 | ------------ | -------------------------------- |
 | CUDA         |  1.11.3                          |
-| Python       |  1.12.0                          |
-| PyTorch      |  3.8.10                          |
+| Python       |  3.8.10                          |
+| PyTorch      |  1.12.0                          |
 | h5py         | *not specified*                  |
 | tqdm         | *not specified*                  |
 | openpyxl     | *not specified*                  |
