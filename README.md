@@ -11,11 +11,19 @@ Our model only depends on the following commonly used packages.
 | PyTorch      |  1.10.0                          |
 | h5py         | *not specified*                  |
 | tqdm         | *not specified*                  |
+| openpyxl     | *not specified*                  |
 | numpy        | *not specified* (we used 1.20.2) |
 | scipy        | *not specified* (we used 1.6.2)  |
 
 ## Install the pointnet2 library
 Compile the furthest point sampling, grouping and gathering operation for PyTorch with following commands. 
+```bash
+cd pointnet2
+python setup.py install
+```
+
+## Install the CUDA-based KNN searching and random searching
+We leverage CUDA-based operator for parallel computing, please compile them with following commands. 
 ```bash
 cd ops_pytorch
 cd fused_conv_random_k
