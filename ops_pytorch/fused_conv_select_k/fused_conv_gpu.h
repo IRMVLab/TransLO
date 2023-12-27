@@ -2,7 +2,7 @@
 #define _FUSE_CONV_GPU_H_
 
 #include <torch/extension.h>
-#include <THC/THC.h>
+//#include <THC/THC.h>
 #include <vector>
 #include <cuda.h>
 #include <cuda_runtime_api.h>
