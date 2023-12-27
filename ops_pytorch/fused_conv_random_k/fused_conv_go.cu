@@ -45,10 +45,10 @@ __global__ void fused_conv_random_k_gpu(int batch_size, int H, int W, int npoint
 	for (int current_n = index_thread; current_n < npoints; current_n += stride_thread)  //  output_W circle 
 	{		
 
-		int idx_w[100], idx_h[100];
-		float Dist[100];
+		int idx_w[500], idx_h[500];
+		float Dist[500];
 	
-		for(int ii = 0; ii<100; ++ii)
+		for(int ii = 0; ii<500; ++ii)
 		{
 			idx_w[ii] = 0;
 			idx_h[ii] = 0;
