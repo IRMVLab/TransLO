@@ -43,7 +43,7 @@ if not os.path.exists(checkpoints_dir): os.makedirs(checkpoints_dir)
 
 os.system('cp %s %s' % ('train.py', log_dir))
 os.system('cp %s %s' % ('configs.py', log_dir))
-os.system('cp %s %s' % ('translonet_model.py', log_dir))
+os.system('cp %s %s' % ('translo_model.py', log_dir))
 os.system('cp %s %s' % ('conv_util.py', log_dir))
 os.system('cp %s %s' % ('kitti_pytorch.py', log_dir))
 
