@@ -2,10 +2,11 @@
 #define _FUSE_CONV_GPU_H_
 
 #include <torch/extension.h>
-#include <THC/THC.h>
+//#include <THC/THC.h>
 #include <vector>
 #include <cuda.h>
 #include <cuda_runtime_api.h>
+#include <ATen/cuda/CUDAContext.h>
 
 void torch_FusedConvRandomKLauncher(
 	torch::Tensor xyz_tensor, 
