@@ -8,12 +8,13 @@ Our model only depends on the following commonly used packages.
 | Package      | Version                          |
 | ------------ | -------------------------------- |
 | CUDA         |  1.11.3                          |
-| PyTorch      |  1.10.0                          |
+| Python       |  1.12.0                          |
+| PyTorch      |  3.8.10                          |
 | h5py         | *not specified*                  |
 | tqdm         | *not specified*                  |
 | openpyxl     | *not specified*                  |
-| numpy        | *not specified* (we used 1.20.2) |
-| scipy        | *not specified* (we used 1.6.2)  |
+| numpy        | *not specified*                  |
+| scipy        | *not specified*                  |
 
 ## Install the pointnet2 library
 Compile the furthest point sampling, grouping and gathering operation for PyTorch with following commands. 
