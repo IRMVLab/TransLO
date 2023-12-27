@@ -3,8 +3,8 @@
 #include <cuda.h>
 #include <cuda_runtime_api.h>
 #include "fused_conv_gpu.h"
-
-extern THCState *state;
+#include <ATen/cuda/CUDAContext.h>
+//extern THCState *state;
 
 //#define CHECK_CUDA(x) AT_CHECK(x.type().is_cuda(), #x, " must be a CUDAtensor ")
 //#define CHECK_CONTIGUOUS(x) AT_CHECK(x.is_contiguous(), #x, " must be contiguous ")
