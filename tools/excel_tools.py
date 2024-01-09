@@ -55,7 +55,7 @@ class SaveExcel(object):
         mean_list = []
         mean_error_list = []
         for col, item in enumerate(self.test_list, 1):
-            txt_path = os.path.join(eval_dir, 'pwclonet_{:02d}'.format(item), '{}.txt'.format(read_file_name))
+            txt_path = os.path.join(eval_dir, 'translonet_{:02d}'.format(item), '{}.txt'.format(read_file_name))
             if not os.path.exists(txt_path):
                 continue
             epoch_list = []
